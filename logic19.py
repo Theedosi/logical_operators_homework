@@ -8,7 +8,7 @@ def main(x):
     Returns:
         bool: answer
     """
-    11
+    121
     a2 = x %10 # 1
     a3 = ((x-a2)//10)%10 #2 
     a1 = x //100 #1
