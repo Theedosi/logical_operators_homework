@@ -6,4 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a%10 #oxrgi
+    a = a//10
+    x2 = a%10
+    a = a//10
+    x3 = a%10
+    a = a//10
+    x4 =a//10
+    x5 = a/10
+    return (x5>x4) and (x4>x3) and (x3>x2) and (x2 > x1)
+print(main(13763))
