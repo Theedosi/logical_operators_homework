@@ -8,10 +8,11 @@ def main(x):
     Returns:
         bool: answer
     """
-    121
-    a2 = x %10 # 1
-    a3 = ((x-a2)//10)%10 #2 
-    a1 = x //100 #1
-    
-    return a1 == a2 or a2 == a3
-print(main(12))
+    s=x
+    a = s%10
+    s//=10
+    b = s%10
+    s//=10
+    c = s%10
+    return (x>99 and c ==a) or (x<=99 and a==b)
+print(main(11))
