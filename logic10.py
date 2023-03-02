@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a-9>=1
+    return a-9>=1 and a-9<=99
 print(main(3))
